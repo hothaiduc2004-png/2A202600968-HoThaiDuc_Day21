@@ -1,0 +1,5 @@
+rank,alpha,trainable_params,trainable_pct,train_time_min,peak_vram_gb,eval_loss,perplexity,notes
+base,-,0,0.000%,-,9.8,3.421,30.62,Baseline — no fine-tuning
+8,16,1572864,0.051%,18.3,10.4,2.847,17.24,Fast + low VRAM
+16,32,3145728,0.102%,21.7,11.1,2.731,15.36,Best ROI — recommended
+64,128,12582912,0.408%,34.2,13.8,2.698,14.87,Diminishing returns vs r=16
